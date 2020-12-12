@@ -1,0 +1,14 @@
+{
+    "name": "Papillo",
+    "version": "1.0",
+    "description": "Papillo helps me get through my depression!",
+    "manifest_version": 2,
+    "browser_action": {   
+
+        "default_title": "Get your motivation together!!" 
+    },
+    "chrome_url_overrides" : {
+          "newtab": "newtab.html"
+    },
+    "permissions": ["activeTab"]
+  }
