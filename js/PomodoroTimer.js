@@ -7,6 +7,6 @@ class PomodoroTimer {
 }
 
 function activatePomodoro(){
-    console.log("çalıştı");
-    //document.querySelector(".time").style.visibility = 'hidden';
+    document.querySelector(".time").style.visibility = 'hidden';
 }
+
