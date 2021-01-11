@@ -1,7 +1,7 @@
 {
     "name": "Papillo",
     "version": "1.0",
-    "description": "Papillo helps me get through my depression!",
+    "description": "Papillo is a productivity extension",
     "manifest_version": 2,
     "browser_action": {   
 
