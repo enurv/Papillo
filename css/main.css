@@ -1,0 +1,16 @@
+body {
+    background-image: url("https://source.unsplash.com/1600x900/?nature");
+    background-size: cover;
+}
+
+.time {
+    text-align: center;
+}
+
+#quote {
+    text-align: center;
+}
+
+.clock-div {
+    align-items: center;
+}
