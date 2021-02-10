@@ -14,3 +14,7 @@ body {
 .clock-div {
     align-items: center;
 }
+
+.task.checked {
+    text-decoration: line-through;
+}
