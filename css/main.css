@@ -1,20 +1,52 @@
-body {
+body,html {
     background-image: url("https://source.unsplash.com/1600x900/?nature");
     background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    height: 100%;
+    overflow: auto;
 }
 
 .time {
     text-align: center;
+    font-size: 150px;
 }
 
 #quote {
     text-align: center;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
 }
 
 .clock-div {
     align-items: center;
+    text-align: center;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    padding: 110px;
 }
 
 .task.checked {
     text-decoration: line-through;
+}
+
+#todo-list {
+    bottom: 0%;
+    right: 0%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.pomodoro-activate{
+    text-align: center;
+    top: 50%;
+    right: 0%;
+    transform: translate(-50%, -50%);
+    position: absolute;
 }
