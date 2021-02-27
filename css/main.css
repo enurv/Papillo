@@ -7,9 +7,15 @@ body,html {
     margin: 0;
     height: 100%;
     overflow: auto;
+    color: white;
 }
 
 .time {
+    text-align: center;
+    font-size: 150px;
+}
+
+.timer {
     text-align: center;
     font-size: 150px;
 }
